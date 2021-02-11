@@ -1,0 +1,88 @@
+/** souma sokhla wé flex **/
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+/** pour l'aligne des ecritures**/
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+/** pour l'aligne des flex**/
+.flex-center{
+    justify-content: center;
+}
+
+.flex-right{
+    justify-content: right;
+    text-align: right
+}
+
+.flex-left{
+    justify-content: left;
+}
+.flex-round{
+    justify-content: space-around;
+}
+.flex-row-between{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flex-row-left{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+/** pour l'aligne des items **/
+.item-center{
+    align-items: center;
+}
+
+.item-right{
+    align-items: right;
+}
+
+.item-left{
+    align-items: left;
+}
+.plus-grand{
+    flex:1;
+}
+.bg-white{
+    background-color: #FFF;
+}
+.bg-white{
+    background-color: #FFF;
+}
+.bg-red{
+    background-color: #791A1A;
+}
+
+.color-blue{
+    color: #0dcaf0;
+}
+
+.color-red{
+    color: #dc3545;
+}
+
+#top{
+    height: 60px;
+    border-radius: 3px;
+}
+.padding{
+    padding: 7px;
+}
